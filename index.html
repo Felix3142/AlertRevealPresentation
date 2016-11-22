@@ -1,50 +1,174 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/league.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <section>
+                <h1>Who are SCL?</h1>
+                <ul>
+                    <li class="fragment">Started in 1998</li>
+                    <li class="fragment">Based in West Wales</li>
+                    <li class="fragment">Over 500 active customers</li>
+                    <li class="fragment">Hosting over 400 websites</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Team Members</h2>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+                <p>There are 8 people working at SCL:</p>
+                <ul>
+                    <li class="fragment">3 Developers</li>
+                    <li class="fragment">2 Designers</li>
+                    <li class="fragment">1 Infrastructure/Hardware</li>
+                    <li class="fragment">2 Admins</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Infrastructure</h2>
+                Started with a single Red Hat Linux server in Swansea University, progressed to our own series of blade
+                servers
+                colocated in London and Manchester and more recently we have migrated to AWS and Digital Ocean Cloud
+                based services.
+            </section>
+        </section>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+        <section>
+            <section>
+                <h1>How we Work</h1>
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+                <p class="fragment">We are passionate about delivering high quality software that provides value.</p>
+            </section>
+            <section>
+                <h2>Agile Collaboration</h2>
+                <ul>
+                    <li class="fragment">Inception</li>
+                    <li class="fragment">User Stories</li>
+                    <li class="fragment">Stand Ups</li>
+                    <li class="fragment">Planning Meetings</li>
+                    <li class="fragment">Iterations</li>
+                    <li class="fragment">Retrospectives</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Agile Development</h2>
+                <ul>
+                    <li class="fragment">DDD: Domain Driven Design</li>
+                    <li class="fragment">BDD: Behaviour Driven Development</li>
+                    <li class="fragment">TDD: Test Driven Development</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Agile Management and Communication</h2>
+                <ul>
+                    <li class="fragment">Pivotal Tracker</li>
+                    <li class="fragment">Face to Face</li>
+                    <li class="fragment">Video Chat</li>
+                    <li class="fragment">Slack</li>
+                    <li class="fragment">Phone</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Technologies</h1>
+                <ul>
+                    <li class="fragment">PHP 7</li>
+                    <li class="fragment">MySQL/Mongo</li>
+                    <li class="fragment">JavaScript (React, ELM, ...)</li>
+                    <li class="fragment">SPA: Single Page Application</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Deployment</h1>
+                <ul>
+                    <li class="fragment">Cloud
+                        <ul>
+                            <li>AWS</li>
+                            <li>Digital Ocean</li>
+                            <li class="fragment">PaaS - Heroku, Cloud Foundry</li>
+                        </ul>
+                    </li>
+                    <li class="fragment">HTTP/2</li>
+                    <li class="fragment">TLS</li>
+                    <li class="fragment">CI and CD</li>
+                    <li class="fragment">CDN</li>
+                    <li class="fragment">Scaling
+                        <ul>
+                            <li>Horizontal</li>
+                            <li>Vertical</li>
+                        </ul>
+                    </li>
+                    <li class="fragment">Monitoring</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Why this Project Excites Us</h2>
+                The broad scope and reasonable level of complexity...
+                It is a large interesting project which aims to do good for the World...
+            </section>
+        </section>
+
+
+        <section>
+            <section>Slide 1</section>
+            <section>Slide 1.1</section>
+        </section>
+        <section>
+            <section>Slide 1</section>
+            <section>Slide 1.1</section>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
 </html>
